@@ -1,0 +1,117 @@
+body {
+    background-image: url(SL.112119.25250.10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #009468;
+    font-size: 28px;
+    text-align: center;
+}
+
+#input {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+#date {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+#weatherNow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 8px #011a33;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#conditions {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#feelslike, #variation {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+@media all and (max-width:500px) {
+    .box {
+        width: 350px;
+    }
+
+    #city {
+        font-size: 35px;
+    }
+
+    #date {
+        font-size: 20px;
+    }
+
+    #temperature {
+        font-size: 80px;
+    }
+
+    #conditions {
+        font-size: 30px;
+    }
+
+}
