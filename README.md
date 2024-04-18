@@ -10,6 +10,6 @@ A simple, beautiful, and responsive weather application. It enables users to sea
 * Weather application built with JavaScript and successfully integrated API.
 * Current Weather Conditions: Provides access to current weather conditions, including temperature, precipitation and more.
 
-[Link for application](https://silly-trifle-597836.netlify.app/)
+[Link for application](https://alesya-superfin-weather-app.netlify.app/)
 
 
